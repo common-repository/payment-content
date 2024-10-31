@@ -1,0 +1,26 @@
+<script>
+///////////////////////////////
+// TEXTS FOR POST PROTECTION //
+///////////////////////////////
+
+// EXAMPLE:
+// PROTECTED_POST["ES"] = "texto en español";
+// ES : codigo del pais. Si para un idioma no se sabe el codigo, poner nombre del idioma
+
+
+var PROTECTED_POST = Array();
+PROTECTED_POST["DEFAULT"] = "This post is protected. Click here to access.";
+PROTECTED_POST["ES"] = "Este post está protegido. Haga click aquí para acceder.";
+PROTECTED_POST["FR"] = "Ce post est protégé. Cliquez ici pour y acceder.";
+PROTECTED_POST[""] = "";
+
+////////////////////////////
+// TEXTS FOR INVALID CODE //
+////////////////////////////
+
+var INVALID_CODE = Array();
+INVALID_CODE["DEFAULT"] = "You entered an invalid code.";
+INVALID_CODE["ES"] = "El código introducido es incorrecto.";
+INVALID_CODE["FR"] = "Le code introduit n’est pas correct";
+INVALID_CODE[""] = "";
+</script>
